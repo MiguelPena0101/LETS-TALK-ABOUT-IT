@@ -36,6 +36,25 @@
                 <!-- Add more articles here -->
             </section>
 
+            <section class="blog-post-form">
+                <h2>Create a New Blog Post</h2>
+                <form id="postForm">
+                    <label for="postTitle">Title:</label>
+                    <input type="text" id="postTitle" name="title" required><br>
+                    <label for="postAuthor">Author:</label>
+                    <input type="text" id="postAuthor" name="author" required><br>
+                    <label for="postContent">Content:</label>
+                    <textarea id="postContent" name="content" required></textarea><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+
+            <!-- Blog Post Section -->
+            <section class="blog-posts">
+                <h2>Blog Posts</h2>
+                <div id="postsContainer"></div>
+            </section>
+
             <!-- Sidebar Section -->
             <aside class="sidebar">
                 <div class="widget">
