@@ -25,10 +25,23 @@ function renderPosts(posts) {
     });
 }
 
+// Function to update recent posts
+function updateRecentPosts(posts) {
+    const recentPostsContainer = document.querySelector('.recent-posts');
+    recentPostsContainer.innerHTML = '';
+    const recentPosts = posts.slice(-3).reverse();
+    recentPosts.forEach(post => {
+        const postItem = document.createElement('li');
+        postItem.innerHTML = `<a href="#">${post.title}</a>`;
+        recentPostsContainer.appendChild(postItem);
+    });
+}
+
 // Initial load of posts
 document.addEventListener('DOMContentLoaded', () => {
     const posts = loadPosts();
     renderPosts(posts);
+    updateRecentPosts(posts);
 
     // Handle form submission
     document.getElementById('postForm').addEventListener('submit', (event) => {
@@ -41,6 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         posts.push(newPost);
         savePosts(posts);
         renderPosts(posts);
+        updateRecentPosts(posts);
         document.getElementById('postForm').reset();
     });
 });
