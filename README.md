@@ -1,15 +1,8 @@
 # LETS-TALK-ABOUT-IT
 # My Blog Post Website
 
-![Screenshot of the Blog Post Website](assets/media/LETS%20TALK%20ABOUT%20IT.png)
+![Screenshot of the Blog Post Website](/assets/media/LETSTALKABOUTIT.png)
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Resources](#resources)
-- [License](#license)
 
 ## Introduction
 Welcome to "LET'S TALK ABOUT IT," a blog where we discuss all things related to technology and coding. This project is a simple blogging website that allows users to create, save, and view blog posts using local storage.
