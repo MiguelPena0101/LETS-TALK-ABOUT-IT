@@ -1,7 +1,6 @@
 # LETS-TALK-ABOUT-IT
-# My Blog Post Website
 
-![Screenshot of the Blog Post Website](/assets/media/LETSTALKABOUTIT.png)
+![Screenshot of the Blog Post Website](/Assets/media/LETSTALKABOUTIT.png)
 
 
 ## Introduction
